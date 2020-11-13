@@ -9,7 +9,7 @@ int main()
     //DBG configuration
     dbg.set_format( 8 , BufferedSerial::None , 1 ) ;
 
-    char* p = new char[10] ;
+    char* p = new char[11] ;
     char c = 'c' ;
 
     for ( int i = 0 ; i < 10 ; i++ )
